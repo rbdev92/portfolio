@@ -1,4 +1,4 @@
-# Seja Bem Vindo (a) ao meu portfólio :D
+# Seja Bem Vindo(a) ao meu portfólio 👋🏽
 
 *No momento estou trabalhando nesta página.*
 
