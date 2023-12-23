@@ -5,30 +5,33 @@ document.querySelector("#app").innerHTML = `
 <header>
   <nav>
     <ul>
-      <li><a href="#about">About</a></li>
+      <li><a href="#home">About</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#blog">Blog</a></li>
-      <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 </header>
 
 <main class="container">
-  <section id="about">
-    <div class="heading">
-      <h1>About</h1>
+  <section id="home">
+    <div class="banner">
+      <div class="banner-box-one">
+        <h1>
+          Gosto de estar envolvido em projetos onde eu contribua com a <span style="color: #747bff;">comunidade</span>.
+        </h1>
+        <p>
+          Apaixonado por tecnologia e desenvolvimento web.
+        </p>
+      </div>
+      <div class="banner-box-two">
+        <img 
+          src="./assets/images/renato.jpeg"
+          alt="Foto de Renato Brito"
+          width="400"
+        >
+      </div>
     </div>
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
-      aliquam neque labore vitae culpa? Fuga ullam provident atque
-      laudantium pariatur, doloremque sunt numquam quia adipisci omnis,
-      delectus sit possimus a?
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
-      aliquam neque labore vitae culpa? Fuga ullam provident atque
-      laudantium pariatur, doloremque sunt numquam quia adipisci omnis,
-      delectus sit possimus a?
-    </p>
   </section>
   <section id="skills">
     <div class="heading">
@@ -60,9 +63,9 @@ document.querySelector("#app").innerHTML = `
       delectus sit possimus a?
     </p>
   </section>
-  <section id="contact">
+  <section id="blog">
     <div class="heading">
-      <h1>Contact</h1>
+      <h1>Other</h1>
     </div>
     <p>
       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
@@ -82,16 +85,13 @@ document.querySelector("#app").innerHTML = `
   </div>
   <div class="social">
     <div>
-      <a href="#"><i class="fa-brands fa-github"></i></a>
+      <a href="https://github.com/rbdev92" target="_blank"><i class="fa-brands fa-github"></i></a>
     </div>
     <div>
-      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://www.linkedin.com/in/renatobrito92/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
     </div>
     <div>
-      <a href="#"><i class="fa-brands fa-instagram"></i></a>
-    </div>
-    <div>
-      <a href="#"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://instagram.com/rbdev92" target="_blank"><i class="fa-brands fa-instagram"></i></a>
     </div>
   </div>
 </footer>

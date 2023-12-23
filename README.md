@@ -1,6 +1,6 @@
 # Renato Brito / Front-end Developer 👋🏽
 
-Apaixonado por tecnologia e desenvolvimento web. Gosto de estar envolvido em projetos onde eu possa contribuir com a comunidade.
+Apaixonado por tecnologia e desenvolvimento web. Gosto de estar envolvido em projetos onde eu contribua com a comunidade.
 
 ## Sobre
 
