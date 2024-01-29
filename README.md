@@ -31,3 +31,25 @@ Sonho em desbravar o mundo desde criança. Acredito que a tecnologia pode propor
 - [**Discord**](https://discord.gg/#8522)
 - [**Email**](mailto:dev.renatobrito@gmail.com)
 - [**Instagram**](https://instagram.com/rbdev92)
+
+### Estrutura de pastas
+
+meu-portfolio/
+|-- node_modules/
+|-- public/
+|   |-- styles/
+|       |-- style.css
+|-- views/
+|   |-- index.ejs
+|   |-- about.ejs
+|   |-- projects.ejs
+|   |-- skills.ejs
+|   |-- contact.ejs
+|-- routes/
+|   |-- index.js
+|   |-- about.js
+|   |-- projects.js
+|   |-- skills.js
+|   |-- contact.js
+|-- server.js
+|-- package.json
