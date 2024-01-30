@@ -14,7 +14,7 @@ Atualmente como autodidata, estudo linguagens e uso ferramentas pertinentes ao *
 
 ### Ferramentas
 
-- Visual Studio Code , Cmder, Notion
+- Visual Studio Code, Cmder, Notion
 
 ### Setup
 
@@ -26,30 +26,37 @@ Sonho em desbravar o mundo desde criança. Acredito que a tecnologia pode propor
 
 ### Me encontre nas redes
 
-- [**Github**](https://github.com/rbdev92)
-- [**Linkedin**](https://www.linkedin.com/in/renatobrito92/)
-- [**Discord**](https://discord.gg/#8522)
-- [**Email**](mailto:dev.renatobrito@gmail.com)
-- [**Instagram**](https://instagram.com/rbdev92)
+- [Github](https://github.com/rbdev92)
+- [Linkedin](https://www.linkedin.com/in/renatobrito92/)
+- [Discord](https://discord.gg/#8522)
+- [Email](mailto:dev.renatobrito@gmail.com)
+- [Instagram](https://instagram.com/rbdev92)
 
 ### Estrutura de pastas
 
-meu-portfolio/
-|-- node_modules/
-|-- public/
-|   |-- styles/
-|       |-- style.css
-|-- views/
-|   |-- index.ejs
-|   |-- about.ejs
-|   |-- projects.ejs
-|   |-- skills.ejs
-|   |-- contact.ejs
-|-- routes/
-|   |-- index.js
-|   |-- about.js
-|   |-- projects.js
-|   |-- skills.js
-|   |-- contact.js
-|-- server.js
-|-- package.json
+portfolio/
+|-- assets/
+|   |-- css/
+|   |-- images/
+|   |-- js/
+|-- index.html
+|-- README.md
+
+### Fontes
+
+[Google Fonts](https://fonts.google.com/)
+
+`'Inter', sans-serif;`
+`'Open Sans', sans-serif;`
+`'Saira Extra Condensed', sans-serif;`
+
+### Cores
+
+`Dark #181A1B`
+`Gray #343A40`
+`Brown #BD5D38`
+`White #ffffff`
+
+`Title Gray #C3BEB6`
+`Subtitle Gray #A1988C`
+`Text Brown #CC7553`

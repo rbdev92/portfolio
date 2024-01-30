@@ -1,0 +1,147 @@
+:root {
+  --primary-dark: #181a1b;
+  --primary-gray: #343a40;
+  --primary-brown: #bd5d38;
+  --white: #ffffff;
+  --title-gray: #c3beb6;
+  --text-gray: #a1988c;
+  --text-brown: #cc7553;
+
+  --font-inter: "Inter", sans-serif;
+  --font-saira: "Saira Extra Condensed", sans-serif;
+}
+
+body {
+  font-family: var(--font-inter);
+  background-color: var(--primary-dark);
+  color: var(--text-gray);
+  /* color: var(--title-gray); */
+  /* color: var(--white); */
+}
+
+#logo {
+  margin-left: 100px;
+  color: var(--primary-gray);
+}
+
+header {
+  background-color: var(--primary-brown);
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* position: fixed;
+  width: 100%; */
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin-right: 100px;
+}
+
+ul li {
+  margin: 0 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--title-gray);
+  font-weight: 700;
+}
+
+ul li a:hover {
+  color: var(--white);
+}
+
+h1 {
+  font-family: "Saira Extra Condensed", serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--primary-gray);
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.surname {
+  color: var(--text-brown);
+}
+
+.subheading {
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 1.35rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.mb-5 {
+  margin-bottom: 3rem;
+}
+
+.home-text {
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+h2 {
+  font-family: var(--font-saira);
+  font-size: 3.5rem;
+  color: var(--title-gray);
+  letter-spacing: 2px;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6rem;
+}
+
+.list-social-item,
+.list-tool-item {
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+}
+
+.list-item:hover {
+  color: var(--text-brown);
+}
+
+.list-check {
+  display: flex;
+  flex-direction: column;
+}
+
+.fa-check {
+  margin-right: 10px;
+  color: var(--title-gray);
+}
+
+section {
+  height: 100vh;
+}
+
+.resume-section {
+  border-bottom: 1px solid var(--primary-gray);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.content {
+  margin: 0 100px;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+}
