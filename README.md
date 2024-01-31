@@ -56,6 +56,7 @@ portfolio/
 `Gray #343A40`
 `Brown #BD5D38`
 `White #ffffff`
+`Blue #4F7EB7`
 
 `Title Gray #C3BEB6`
 `Subtitle Gray #A1988C`
