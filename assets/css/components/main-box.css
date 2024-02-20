@@ -1,13 +1,3 @@
 .main-box {
-  display: inline-block;
-  text-align: justify;
-  padding-top: 6rem;
-}
-
-.main-box .main-title {
-  margin-bottom: 1rem;
-}
-
-.main-box .main-subtitle {
   margin-bottom: 4rem;
 }
