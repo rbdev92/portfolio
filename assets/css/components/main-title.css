@@ -1,0 +1,9 @@
+.main-title {
+  font-family: var(--font-saira);
+  font-size: 12rem;
+  text-transform: uppercase;
+}
+
+.main-title span {
+  color: var(--primary-brown);
+}
