@@ -1,0 +1,16 @@
+.main-banner {
+  height: 100vh;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.main-banner .wrapper {
+  width: 60rem;
+  padding: 4rem 0;
+}
+
+.main-banner .navigation {
+  display: flex;
+  gap: 3rem;
+  width: 100%;
+}
