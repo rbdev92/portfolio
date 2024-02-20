@@ -1,0 +1,12 @@
+.main-action {
+  display: inline-flex;
+  align-items: center;
+  color: var(--link);
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin-right: 1rem;
+}
+
+.main-action:hover {
+  color: var(--primary-white);
+}
