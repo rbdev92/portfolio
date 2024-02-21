@@ -1,12 +1,10 @@
 .main-button {
-  display: inline-flex;
-  justify-content: space-around;
   font-size: 4rem;
-  color: var(--text-gray);
+  color: var(--color_gray);
   transition: transform 200ms ease-in-out;
 }
 
 .main-button:hover {
-  color: var(--primary-brown);
+  color: var(--color_blue);
   transform: scale(1.2);
 }
