@@ -1,4 +1,6 @@
 .main-banner {
+  display: flex;
+  align-items: center;
   height: 100vh;
   padding-left: 10rem;
   padding-right: 10rem;
