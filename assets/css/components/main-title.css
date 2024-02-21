@@ -2,7 +2,7 @@
   font-family: var(--font_saira);
   font-size: 12rem;
   text-transform: uppercase;
-  color: var(--color_text_black);
+  color: var(--color_black);
 }
 
 .main-title span {
