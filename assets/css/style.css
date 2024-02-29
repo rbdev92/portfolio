@@ -1,62 +1,20 @@
 :root {
-  --primary-dark: #181a1b;
-  --primary-brown: #bd5d38;
-  --primary-blue: #4f7eb7;
-  --primary-white: #ffffff;
-  --link: #cecece;
-  --title-gray: #343a40;
-  --text-gray: #868e96;
+  --bg_color: #d2d2d2;
+  --color_blue: #3c80b4;
+  --color_white: #fff;
+  --color_black: #111;
+  --color_gray: #343a40;
 
-  --font-inter: "Inter", sans-serif;
-  --font-saira: "Saira Extra Condensed", sans-serif;
+  --font_inter: "Inter", sans-serif;
+  --font_saira: "Saira Extra Condensed", sans-serif;
 
   font-size: 62.5%;
 }
 
 body {
-  font-family: var(--font-inter);
-  background-color: var(--primary-dark);
-  color: var(--text-gray);
-}
-
-/* NAVIGATION */
-header {
-  background-color: var(--primary-brown);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 80px;
-  width: 100%;
-  position: fixed;
-}
-
-header .logo {
-  margin-left: 10rem;
-}
-
-nav {
-  margin-right: 10rem;
-}
-
-nav ul {
-  display: flex;
-}
-
-nav ul li {
-  list-style: none;
-  margin: 0 1rem;
-}
-
-nav ul li a {
-  color: var(--link);
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 1.6rem;
-  letter-spacing: 1px;
-}
-
-nav ul li a:hover {
-  color: var(--primary-white);
+  font-family: var(--font_inter);
+  background-color: var(--bg_color);
+  color: var(--color_black);
 }
 
 /* SOCIAL */
@@ -77,13 +35,6 @@ nav ul li a:hover {
 
 .social-item ul li a:hover {
   color: var(--primary-brown);
-}
-
-/* MAIN */
-section {
-  height: 100vh;
-  padding-top: 10rem;
-  border-bottom: 1px solid var(--text-gray);
 }
 
 .resume-section {
@@ -116,15 +67,7 @@ section {
   color: var(--title-gray);
 }
 
-.subheading {
-  font-family: var(--font-saira);
-  font-size: 2.6rem;
-  text-transform: uppercase;
-  margin-bottom: 2rem;
-  color: var(--text-gray);
-}
-
-.text {
+.main-description {
   font-family: var(--font-inter);
   font-size: 2rem;
   font-weight: 400;
@@ -168,7 +111,7 @@ section {
 }
 
 .fa-check::after {
-  content: '';
+  content: "";
   margin-right: 1rem;
 }
 
