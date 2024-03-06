@@ -9,10 +9,7 @@ através do banco de dados relacional **MySQL** em 2013. Infelizmente, não pude
 época, devido a questões pessoais. Em 2019, ingressei na faculdade
 e conquistei uma vaga no curso de
 **Tecnólogo em Análise e Desenvolvimento de Sistemas**
-na **Anhanguera**. Avancei por três semestres, mas as
-adversidades trazidas pela pandemia do
-**COVID-19** resultaram em desemprego, impedindo-me de
-concluir o curso. Atualmente, atuo como **autodidata**,
+na **Anhanguera**. Atualmente, atuo como **autodidata**,
 focando meus esforços no estudo de diversas linguagens e na
 aplicação de **ferramentas relevantes** para o
 **Desenvolvimento Web**. Estou comprometido em
@@ -62,16 +59,14 @@ portfolio/
 
 [Google Fonts](https://fonts.google.com/)
 
-`'Inter', sans-serif;`
-`'Open Sans', sans-serif;`
-`'Saira Extra Condensed', sans-serif;`
+`Inter, sans-serif;`
 
 ### Cores
 
-`--bg_color: #d2d2d2;`
-`--color_blue: #3c80b4;`
-`--color_white: #fff;`
-`--color_black: #111;`
-`--color_gray: #343a40;`
+`Background: #181818`
+`Black: #000000`
+`White: #ffffff`
+`Gray: #999ea7`
+`Mustard Yellow: #ff9c08`
 
 <!-- https://adevait.com/blog/workplace/7-soft-skills-developers-2019# -->
