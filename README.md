@@ -1,6 +1,6 @@
 # Renato Brito / Web Developer 👋🏽
 
-![Portfolio Home](assets\images\home.png)
+![Portfolio Home](assets/images/home.png)
 
 ## Sobre
 
